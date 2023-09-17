@@ -20,5 +20,19 @@ $(document).ready(function(){
             $(this).css({"border" : "1px solid #2F82C2"});
             $(this).css({"font-weight" : "400"});
         }       
-    }); 
+    });
+    
+    $(".hero-name").hover(function()
+    {
+        $(this).stop().animate({fontSize:"3.5rem"});
+    },
+    function()
+    {
+        $(this).stop().animate({fontSize: "2.5rem"})
+    });
+    
 })
+
+    
+
+

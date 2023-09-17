@@ -29,6 +29,19 @@ ul{
     padding: 14px 16px;
 }
 
+.nav-text-active{
+    float:left;
+    display:block;
+    font-size: 15px;
+    color:#f4f5f5;
+    font-family: "Monserratt",sans-serif;
+    font-weight: 400;
+    list-style-type: none;
+    padding: 14px 16px;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
 .nav-text:hover{
     background-color: #02407C;
     border:2px #2F82C2
@@ -90,6 +103,7 @@ a:active{
     margin-top: 130px;
     margin-bottom: 0;
     color: #c2723e;
+    position:relative;
 }
 
 .hero-profession{
@@ -168,6 +182,8 @@ a:active{
     font-family: "Monserratt",sans-serif;
     letter-spacing: 0.06em;
     padding-top: 10px;
+    text-decoration: underline;
+    text-underline-offset: 8px;
 }
 
 .skill-sub-title{
